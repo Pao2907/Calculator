@@ -6,7 +6,7 @@
 * Develop a calculator in Python with a graphical user interface (UI).
 * The calculator must have the following simple functions:
    * Numeric keypad (0-9) with decimal point
-   * Can perform addition (+) , subtraction (-), multiplication (x), and division (%).
+   * Can perform addition (+) , subtraction (-), multiplication (x), and division (/).
    * Your calculator should be capable of chaining multiple operations together and it must execute them in the correct order.
      * The basic requirements that does not require you to implement parentheses in your operations.
    * A delete button that deletes one character at a time
