@@ -7,7 +7,7 @@ root.title("Calculator")
 expression = ""
 
 # Create functions
-#Add, clear, and calculate
+#Add, clear, del, and calculate
 def add(value):
     global expression
     expression += value
@@ -18,8 +18,6 @@ def clear():
     expression = ""
     label_result.config(text=expression)
     
-def calculate():
-    pass
 def calculate():
     global expression
     result = ""
