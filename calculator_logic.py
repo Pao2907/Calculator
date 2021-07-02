@@ -7,7 +7,7 @@ root.title("Calculator")
 expression = ""
 
 # Create functions
-#Add, clear, del, and calculate
+# Add, clear, del, and calculate
 def add(value):
     global expression
     expression += value
@@ -31,7 +31,7 @@ def calculate():
     expression = str(result)
 
 def funcdel():
-    global  expression
+    global expression
     expression = expression[0:len(expression)-1]
     label_result.config(text=expression)
 
