@@ -1,4 +1,11 @@
 # Create GUI
+from tkinter import*
+
+root = Tk()
+root.configure(bg='#283136') 
+root.minsize(304,333) 
+root.maxsize(304,333) 
+root.title("Calculator")
 
 label_result = tkinter.Label(root, text="", font=("Arial Narrow", 16, 'bold'))
 label_result.grid(row=0, column=0, columnspan=4)
