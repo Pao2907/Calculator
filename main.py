@@ -1,11 +1,6 @@
 from tkinter import*
 
 class Calculator(Frame):
-	
-from tkinter import*
-
-class Calculator(Frame):
-	
 	#constructor for the Calculator Window
 	def __init__(self, master=None):
 		super().__init__(master)
