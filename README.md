@@ -6,7 +6,9 @@
     * A delete button that deletes one character at a time
     * A clear button that deletes everything that is written on the screen
     * Parenthesis to clarify separation of numbers and operations
- 
+    
+# Calculator Overview
+
 
 # Group Name: ___Code Assassins___
 ### Members:
