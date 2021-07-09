@@ -5,7 +5,6 @@ class Calculator(Frame):
 from tkinter import*
 
 class Calculator(Frame):
-	
 	#constructor for the Calculator Window
 	def __init__(self, master=None):
 		super().__init__(master)
@@ -63,9 +62,9 @@ class Calculator(Frame):
 		self.entry.delete(len(current)-1, END)
 		self.expr.configure(text=self.entry.get())
 
-	#Part to create expression container and buttons
+	# Part to create expression container and buttons
 	def createWidgets(self):
-# This part are the development of Button widgets and their positioning
+		# This part are the development of Button widgets and their positioning
 		self.one = Button(self, justify="center", text="1", width=8, pady=10, relief=FLAT, fg="White",font=("Helvetica", "9"), bg="#44535b",activebackground='Gray', command= lambda:self.click("1"))
 		two = Button(self, justify="center",text="2", width=8, pady=10, relief=FLAT, fg="White",font=("Helvetica", "9"), bg="#44535b",activebackground='Gray',command= lambda:self.click("2"))
 		three = Button(self,justify="center", text="3", width=8, pady=10, relief=FLAT, fg="White",font=("Helvetica", "9"), bg="#44535b",activebackground='Gray',command= lambda:self.click("3"))
