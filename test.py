@@ -18,7 +18,7 @@ class TestCaseCalcu(unittest.TestCase):
 		while self.root.dooneevent(_tkinter.ALL_EVENTS | _tkinter.DONT_WAIT):
 			pass
 
-class TestCalcu(TestCaseCalcu):
+class TestCalculator(TestCaseCalculator):
 	def test_click(self):
 		c=CalculatorWindow(self.root)
 		self.pump_events()
