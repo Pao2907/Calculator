@@ -6,7 +6,7 @@ root.title("Calculator")
 expression = ""
 
 # Create functions
-#Add, clear, del, and calculate
+#Add, Clear, Delete, and Calculate
 def add(value):
     global expression
     expression += value
