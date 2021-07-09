@@ -1,4 +1,3 @@
-# Create GUI
 from tkinter import*
 
 root = Tk()
