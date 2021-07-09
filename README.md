@@ -8,7 +8,8 @@
     * Parenthesis to clarify separation of numbers and operations
     
 # Calculator Overview
-![image](https://user-images.githubusercontent.com/86357037/125076204-3755a800-e0f2-11eb-8e9b-0d561d4c3911.png)
+![image](https://user-images.githubusercontent.com/86398743/125076226-3de41f80-e0f2-11eb-9d8d-f0e3780928d1.png)
+
 
 # Group Name: ___Code Assassins___
 ### Members:
